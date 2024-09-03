@@ -1,4 +1,6 @@
  1. git version 2.34.1
+ 
+ 
 2. user.name=Cayden Anthony
 user.email=ca499921@ohio.edu
 core.repositoryformatversion=0
@@ -10,54 +12,88 @@ remote.origin.fetch=+refs/heads/*:refs/remotes/origin/*
 branch.main.remote=origin
 branch.main.merge=refs/heads/main
 user.email=ca499921@gmail.com
+
+
 3. It provides a list of details and features for the command
-4. No commits yet
 
-Changes to be committed:
-  (use "git rm --cached <file>..." to unstage)
 
-	new file:   README.md
+4. On branch main
+Your branch is up to date with 'origin/main'.
+
+Changes not staged for commit:
+  (use "git add <file>..." to update what will be committed)
+  (use "git restore <file>..." to discard changes in working directory)
+	modified:   answers.md
 
 Untracked files:
   (use "git add <file>..." to include in what will be committed)
+	README.md
 
-	answers.md
+no changes added to commit (use "git add" and/or "git commit -a")
 
-5. No commits yet
+
+5. On branch main
+Your branch is up to date with 'origin/main'.
 
 Changes to be committed:
-  (use "git rm --cached <file>..." to unstage)
-
+  (use "git restore --staged <file>..." to unstage)
 	new file:   README.md
-	new file:   answers.md
-6. I did the steps out of order so 5 is my answer for #6
-7. nothing to commit working tree clean
 
-8. commit 6ae10ed4c799ea9e822eb455a9ee19e193fe483d (HEAD -> master)
-Author: Cayden Anthony <ca499921@gmail.com>
-Date:   Tue Jan 24 19:08:08 2023 -0500
 
-    Initial commit
-9. On branch main
+6. On branch main
 Your branch is up to date with 'origin/main'.
+
+Changes to be committed:
+  (use "git restore --staged <file>..." to unstage)
+	new file:   README.md
+	modified:   answers.md
+
+
+
+7. On branch main
+Your branch is ahead of 'origin/main' by 1 commit.
+  (use "git push" to publish your local commits)
 
 nothing to commit, working tree clean
 
+
+8. commit 2ccbc70eb8ea0e3786949fdb1cb69bd8888d569c (HEAD -> main)
+Author: Cayden Anthony <ca499921@ohio.edu>
+Date:   Tue Sep 3 16:44:14 2024 -0400
+
+    Initial commit
+
+    
+9. On branch main
+Your branch is up to date with 'origin/main'.
+
+Changes not staged for commit:
+  (use "git add <file>..." to update what will be committed)
+  (use "git restore <file>..." to discard changes in working directory)
+	modified:   answers.md
+
+no changes added to commit (use "git add" and/or "git commit -a")
+
 10. no
 
-11. error: failed to push some refs to 'https://github.com/ca499921/git-lab.git'
-hint: Updates were rejected because the remote contains work that you do
-hint: not have locally. This is usually caused by another repository pushing
-hint: to the same ref. You may want to first integrate the remote changes
-hint: (e.g., 'git pull ...') before pushing again.
-hint: See the 'Note about fast-forwards' in 'git push --help' for details.
+11. emote: Enumerating objects: 5, done.
+remote: Counting objects: 100% (5/5), done.
+remote: Compressing objects: 100% (3/3), done.
+remote: Total 3 (delta 1), reused 0 (delta 0), pack-reused 0 (from 0)
+Unpacking objects: 100% (3/3), 973 bytes | 121.00 KiB/s, done.
+From https://github.com/ca499921/git-lab
+   5c2ebde..db45bad  main       -> origin/main
+Updating 5c2ebde..db45bad
+Fast-forward
+ README.md | 1 +
+ 1 file changed, 1 insertion(+)
+
 
 12. yes
-cs2400
-section 107 lab tues
-commit
 
-13..  ..  git-lab-2  Labs
+
+
+13.  .  ..  a.out  .git  .gitignore	git-lab-program.cc  README.md
 
 
 
