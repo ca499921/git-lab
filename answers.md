@@ -1,7 +1,16 @@
-1. git version 2.17.1
+ 1. git version 2.34.1
 2. user.name=Cayden Anthony
+user.email=ca499921@ohio.edu
+core.repositoryformatversion=0
+core.filemode=true
+core.bare=false
+core.logallrefupdates=true
+remote.origin.url=https://github.com/ca499921/git-lab.git
+remote.origin.fetch=+refs/heads/*:refs/remotes/origin/*
+branch.main.remote=origin
+branch.main.merge=refs/heads/main
 user.email=ca499921@gmail.com
-3. like 400 lines of explanation and options 
+3. It provides a list of details and features for the command
 4. No commits yet
 
 Changes to be committed:
